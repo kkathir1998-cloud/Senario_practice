@@ -18,7 +18,7 @@ Delta Table → SQL Query → Query Profile → Diagnose → OPTIMIZE → Verify
 - Used Query Profile to identify scan bottlenecks.
 - Analyzed files read, files pruned, rows scanned, and bytes read.
 - Used `OPTIMIZE` to improve Delta table layout.
-- Verified query improvement from ~18s to ~2s.
+- Verified query improvement from ~2min 18s to ~9s.
 
 ## Challenges & Solutions
 
@@ -31,3 +31,14 @@ Delta Table → SQL Query → Query Profile → Diagnose → OPTIMIZE → Verify
 - ✅ Root cause investigated
 - ✅ `OPTIMIZE` applied
 - ✅ Performance improvement verified
+
+## Performance Comparision
+
+**Before Optimization:**
+screenshots/before_optimize.jpg
+
+**Optimization:**
+screenshots/Optimize.jpg
+
+**After Optimization:**
+screenshots/after_optimize.jpg
