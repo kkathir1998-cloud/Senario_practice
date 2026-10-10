@@ -35,13 +35,10 @@ Delta Table → SQL Query → Query Profile → Diagnose → OPTIMIZE → Verify
 ## Performance Comparison
 
 ### Before Optimization
-
-screenshots/before_optimize.jpg
+![Before Optimization](screenshots/before_optimize.jpg)
 
 ### Optimization
-
-screenshots/Optimize.jpg
+![Optimization](./screenshots/Optimize.jpg)
 
 ### After Optimization
-
-screenshots/after_optimize.jpg
+![After Optimization](screenshots/after_optimize.jpg)
