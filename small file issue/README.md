@@ -32,13 +32,16 @@ Delta Table → SQL Query → Query Profile → Diagnose → OPTIMIZE → Verify
 - ✅ `OPTIMIZE` applied
 - ✅ Performance improvement verified
 
-## Performance Comparision
+## Performance Comparison
 
-**Before Optimization:**
+### Before Optimization
+
 screenshots/before_optimize.jpg
 
-**Optimization:**
+### Optimization
+
 screenshots/Optimize.jpg
 
-**After Optimization:**
+### After Optimization
+
 screenshots/after_optimize.jpg
