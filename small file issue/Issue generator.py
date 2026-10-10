@@ -7,7 +7,7 @@ df = (
     .orderBy(F.rand())
 )
 
-df.repartition(5000) \
+df.repartition(50000) \
   .write \
   .format("delta") \
   .mode("overwrite") \
